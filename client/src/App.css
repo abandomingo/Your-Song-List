@@ -1,0 +1,101 @@
+body{
+  background-color: #cecece;
+}
+
+.Button{
+  padding: 1rem;
+}
+
+#currently-listening {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 10rem;
+  padding-bottom: 5rem;
+}
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px black;
+  border-radius: 5px;
+}
+
+hr {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 10px black;
+  border-radius: 5px;
+}
+
+#refresh-button {
+  padding: 1rem;
+}
+
+#section{
+  font-size: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#song-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+#top-song-title{
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+#scroll-container {
+  overflow: hidden;
+}
+
+#scroll-text {
+  text-align: right;
+
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
