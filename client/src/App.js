@@ -4,7 +4,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import MainPage from './MainPage';
 
-const colors = ['#80A1C1', '#EEE3AB', '#D9CFC1', '#A77E58', '#BA3F1D'];
+const colors = ['#ffb3ba', '#ffdfba', '#ffffba', '#baffc9', '#bae1ff'];
 
 function getRandomColor() {
   const randomIndex = Math.floor(Math.random() * colors.length);
