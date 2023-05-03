@@ -18,11 +18,11 @@ Also would like to start hosting these type of websites online.
 
 Thanks for reading, Aban Domingo.
 
-#Example of Website
+# Example of Website
 ![](https://github.com/abandomingo/Your-Song-List/blob/main/Your-Song-List.gif)
 
-#Example of Check Playing
+# Example of Check Playing
 ![](https://github.com/abandomingo/Your-Song-List/blob/main/Now-Playing.gif)
 
-#Example of Top Songs
+# Example of Top Songs
 ![](https://github.com/abandomingo/Your-Song-List/blob/main/Top-Songs.gif)
