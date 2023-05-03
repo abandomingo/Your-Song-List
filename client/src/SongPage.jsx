@@ -50,7 +50,11 @@ const SongPage = () => {
   <Container>
     <Container>
       <Row id='currently-listening'>
-        <Col md={6} className="text-center">
+        <Col md={12} lg={6} className="text-center">
+          <h1> Welcome to <br/> Your Song List,</h1>
+          <h3>{userInfo.name}</h3>
+        </Col>
+        <Col md={12} lg={6} className="text-center">
           <div id="scroll-container">
             <h1>Currently Listening To:</h1>
             <h3 id="scroll-text">{nowPlaying.name} - {nowPlaying.artist}</h3>
@@ -59,10 +63,6 @@ const SongPage = () => {
           <div id='refresh-button'>
             <Button onClick={() => getNowPlaying()}  variant="dark">Check Now Playin</Button>{' '}
           </div>
-        </Col>
-        <Col md={6} className="text-center">
-          <h1> Welcome to <br/> Your Song List,</h1>
-          <h3>{userInfo.name}</h3>
         </Col>
       </Row>
     </Container>

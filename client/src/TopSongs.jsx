@@ -50,10 +50,10 @@ const TopSongs = () => {
       {topSongs.map((song, index) => (
         <>
         <Row id='song-list' key={index}>
-          <Col>
+          <Col md={12} lg={6}>
             <img src={song.albumArt} style={{height: 350, width: 350}}/>
           </Col>
-          <Col>
+          <Col md={12} lg={6}>
             <h1>#{index + 1} <strong>{song.song}</strong> - {song.artist}</h1>  
           </Col>
         </Row>
