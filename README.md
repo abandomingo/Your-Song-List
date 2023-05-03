@@ -14,7 +14,7 @@ cd client & npm start
 
 In the future, I would like to move the react functions and other calls into the backend in order to create a more "black-box" app.
 
-Also would like to start hosting these type of websites online.
+Also would like to start hosting this type of websites online and not in my local enviorment.
 
 Thanks for reading, Aban Domingo.
 
